@@ -34,7 +34,7 @@
     <strong><sup>5</sup>National University of Singapore</strong>
 </p>
 <p align="center">
-    <a href='https://arxiv.org/abs/2502.11974'>
+    <a href='https://arxiv.org/abs/2510.11647v1'>
       <img src='https://img.shields.io/badge/arXiv-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='arXiv PDF'>
          </a>
 <a href="https://huggingface.co/datasets/Coraxor/IVEBench-DB"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Hugging%20Face&message=Dataset&color=yellow"></a>
