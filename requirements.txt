@@ -1,0 +1,17 @@
+torch
+torchvision
+transformers
+accelerate
+qwen-vl-utils[decord]==0.0.8
+opencv-python
+openai-clip
+scipy
+omegaconf
+imageio
+tqdm
+ftfy
+regex
+timm
+decord
+einops
+sk-video

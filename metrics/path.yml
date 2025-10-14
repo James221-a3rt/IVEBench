@@ -1,0 +1,31 @@
+# Configuration file for metric model paths
+# Each metric can have config and checkpoint paths specified
+
+motion_smoothness:
+  config: "./quality/amt/cfgs/AMT-G.yaml"
+  checkpoint: "xxx/amt/amt-g.pth"
+
+vtss:
+  checkpoint: "xxx/vtss/infer.pth"
+
+content_fidelity:
+  model_path: "xxx/Qwen2.5-VL-72B-Instruct"
+
+motion_fidelity:
+  checkpoint: "xxx/cotracker3/baseline_offline.pth"
+
+semantic_fidelity:
+  model_path: "xxx/VideoCLIP-XL-v2/VideoCLIP-XL-v2.bin"
+
+instruction_satisfaction:
+  model_path: "xxx/Qwen2.5-VL-72B-Instruct"
+
+overall_semantic_consistency:
+  model_path: "xxx/VideoCLIP-XL-v2/VideoCLIP-XL-v2.bin"
+
+phrase_semantic_consistency:
+  model_path: "xxx/VideoCLIP-XL-v2/VideoCLIP-XL-v2.bin"
+
+quantity_accuracy:
+  config: "./compliance/groundingdino/config/GroundingDINO_SwinB_cfg.py"
+  checkpoint: "xxx/GroundingDINO/groundingdino_swinb_cogcoor.pth"
