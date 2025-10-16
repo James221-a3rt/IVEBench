@@ -147,7 +147,7 @@ huggingface-cli download --repo-type dataset --resume-download Coraxor/IVEBench 
 ```
 
 🥰We sincerely thank [Crepus957](https://huggingface.co/Crepus957) for generously sharing the downloaded and renamed version of IVEBench DB on [IVEBench-DB-ordered](https://huggingface.co/datasets/Crepus957/IVEBench-DB-ordered/tree/main) (It contains all the `.mp4 video` files of the complete IVEBench DB). 😄This method is more convenient and highly recommended.
-You can easily download the data to your tlocal path using the following command:
+You can easily download the data to your local path using the following command:
 
 ```
 huggingface-cli download --repo-type dataset --resume-download Crepus957/IVEBench-ordered --local-dir $YOUR_LOCAL_PATH
