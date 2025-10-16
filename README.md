@@ -212,11 +212,11 @@ Comparative demonstrations of the source videos and the target videos generated 
 If you If you find [IVEBench](https://ryanchenyn.github.io/projects/IVEBench) useful for your research, please consider giving a star⭐ and citation📝 :)
 
 ```
-@article{chen2025ivebenchmodernbenchmarksuite,
-      title={IVEBench: Modern Benchmark Suite for Instruction-Guided Video Editing Assessment}, 
-      author={Yinan Chen and Jiangning Zhang and Teng Hu and Yuxiang Zeng and Zhucun Xue and Qingdong He and Chengjie Wang and Yong Liu and Xiaobin Hu and Shuicheng Yan},
-      journal={arXiv preprint arXiv:2510.11647},
-      year={2025}
+@article{chen2025ivebench,
+  title={IVEBench: Modern Benchmark Suite for Instruction-Guided Video Editing Assessment},
+  author={Chen, Yinan and Zhang, Jiangning and Hu, Teng and Zeng, Yuxiang and Xue, Zhucun and He, Qingdong and Wang, Chengjie and Liu, Yong and Hu, Xiaobin and Yan, Shuicheng},
+  journal={arXiv preprint arXiv:2510.11647},
+  year={2025}
 }
 ```
 
