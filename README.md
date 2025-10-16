@@ -44,9 +44,13 @@
 </p>
 <a name="introduction"></a>
 
-# :blush:Introduction
+# :blush:Continuous Updates
 
 This repository is a comprehensive collection of resources for **IVEBench**, If you find any work missing or have any suggestions, feel free to pull requests or [contact us](#contact). We will promptly add the missing papers to this repository. 
+
+
+
+🔥**More up-to-date instruction-guided video editing methods will continue to be updated.**
 
 <a name="highlight"></a>
 
@@ -136,10 +140,17 @@ After downloading the required checkpoints, you should replace the corresponding
 
 This section provides access to the **IVEBench Database**, which includes a `.csv` file mapping each video's source name to its corresponding ordered name (as used in the `ivebench_prompt.json` metadata) and the original download URL. The `.csv` file is hosted on [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench-DB), containing publicly available video resources.
 Please note that for the subset of data originating from the **OpenHumanVid** dataset within IVEBench, only the source names from OpenHumanVid are provided.
-You can easily download [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench-DB) to your local path using the following command:
+You can download [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench-DB) to your local path using the following command:
 
 ```
 huggingface-cli download --repo-type dataset --resume-download Coraxor/IVEBench --local-dir $YOUR_LOCAL_PATH
+```
+
+🥰We sincerely thank [Crepus957]([Crepus957 (Yinan Jiang)](https://huggingface.co/Crepus957)) for generously sharing the downloaded and renamed version of IVEBench DB on [IVEBench-DB-ordered]([Crepus957/IVEBench-DB-ordered at main](https://huggingface.co/datasets/Crepus957/IVEBench-DB-ordered/tree/main)) (It contains all the `.mp4 video` files of the complete IVEBench DB). 😄This method is more convenient and highly recommended.
+You can easily download the data to your tlocal path using the following command:
+
+```
+huggingface-cli download --repo-type dataset --resume-download Crepus957/IVEBench-ordered --local-dir $YOUR_LOCAL_PATH
 ```
 
 
