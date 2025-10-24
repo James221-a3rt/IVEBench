@@ -149,9 +149,23 @@ huggingface-cli download --repo-type dataset --resume-download Coraxor/IVEBench 
 
 # :muscle:Usage
 
-1. You first need to run your own video editing model on the **IVEBench DB** to generate the corresponding **Target Video dataset**.
-   For each source video, the associated **source prompt**, **edit prompt**, **target prompt**, **target phrase**, and **target span** are stored in the JSON file provided within the IVEBench DB.
-   The filenames of the videos in your generated Target Video dataset must match the corresponding source video names exactly.
+1. You first need to run your own video editing model on the [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench) to generate the corresponding Target Video dataset.
+
+   - For each source video, the associated source prompt, edit prompt, target prompt, target phrase, and target span are stored in the `.json` file provided within the [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench).
+
+   - The filenames of the videos in your generated Target Video dataset must match the corresponding source video names exactly.
+
+   - The metric computation of IVEBench requires both the original and target videos to be in the form of video frame folders. Therefore, you need to convert the `.mp4` videos downloaded from [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench) into video frame folders. Similarly, if the target videos you generate are in `.mp4` format, they also need to be converted.
+
+     ```
+     python data_process/mp42frames_batch.py --input_path $INPUT_PATH --output_path $OUTPUT_PATH
+     ```
+
+   - The IVEBench DB contains videos ranging from **720P to 8K** resolution, with frame counts between **32 and 1024**. If your method has limitations regarding resolution or frame count, you can use `data_process/resize_batch.py` to perform downscaling and frame sampling on the frame folders converted from the IVEBench DB. This will produce a source video dataset at the maximum resolution and frame count supported by your method, making subsequent editing and evaluation more convenient.
+
+     ```
+     python data_process/resize_batch.py --input_path $INPUT_PATH --output_path $OUTPUT_PATH --size $WIDTH $HEIGHT --max_frame $MAX_FRAME
+     ```
 
 2. After you have properly set up the environment, loaded the model weights, prepared the **IVEBench DB**, and generated the **Target Video dataset** using your editing method on IVEBench DB, you can use the evaluation script below to compute the performance scores for each video in your Target Video dataset across all metrics. And the evaluation results will be exported as a **CSV file**.
 
@@ -165,7 +179,13 @@ huggingface-cli download --repo-type dataset --resume-download Coraxor/IVEBench 
        --metric $LIST_OF_METRICS_YOU_NEED \
    ```
 
-3. It is important to note that **IVEBench** is divided into two subsets: the **IVEBench DB Short subset** and the **IVEBench DB Long subset**.
+3. After obtaining the evaluation results on each videos, you can use `metrics\get_average_score.py` to get the total score of your method on the IVEBench DB, as well as the average scores across the three dimensions and all individual metrics.
+
+   ```
+   python get_average_score.py -i $INPUT_CSV -o $OUTPUT_CSV
+   ```
+
+4. It is important to note that **IVEBench** is divided into two subsets: the **IVEBench DB Short subset** and the **IVEBench DB Long subset**.
    The Short subset contains videos with **32–128 frames**, while the Long subset contains videos with **129–1024 frames**, representing a higher level of difficulty.
    If you wish to evaluate your method on the **full IVEBench DB**, you need to generate the **Target Video dataset** for both subsets separately and perform evaluation on each subset independently.
 
