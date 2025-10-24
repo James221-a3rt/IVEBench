@@ -138,22 +138,12 @@ After downloading the required checkpoints, you should replace the corresponding
 
 ### 4. Downloads the IVEBench Database
 
-This section provides access to the **IVEBench Database**, which includes a `.csv` file mapping each video's source name to its corresponding ordered name (as used in the `ivebench_prompt.json` metadata) and the original download URL. The `.csv` file is hosted on [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench-DB), containing publicly available video resources.
-Please note that for the subset of data originating from the **OpenHumanVid** dataset within IVEBench, only the source names from OpenHumanVid are provided.
-You can download [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench-DB) to your local path using the following command:
+This section provides access to the [IVEBench Database](https://huggingface.co/datasets/Coraxor/IVEBench), which contains the complete `.mp4` video data of IVEBench and a `.csv` file (the file provides the original URLs for each video in the [IVEBench Database](https://huggingface.co/datasets/Coraxor/IVEBench), except for those from the OpenHumanVid subset, which do not have corresponding URLs).
+🥰You can download [IVEBench DB](https://huggingface.co/datasets/Coraxor/IVEBench) to your local path using the following command:
 
 ```
 huggingface-cli download --repo-type dataset --resume-download Coraxor/IVEBench --local-dir $YOUR_LOCAL_PATH
 ```
-
-🥰We sincerely thank [Crepus957](https://huggingface.co/Crepus957) for generously sharing the downloaded and renamed version of IVEBench DB on [IVEBench-ordered](https://huggingface.co/datasets/Crepus957/IVEBench-ordered) (It contains all the `.mp4 video` files of the complete IVEBench DB). 😄This method is more convenient and highly recommended.
-You can easily download the data to your local path using the following command:
-
-```
-huggingface-cli download --repo-type dataset --resume-download Crepus957/IVEBench-ordered --local-dir $YOUR_LOCAL_PATH
-```
-
-
 
 <a name="usage"></a>
 
