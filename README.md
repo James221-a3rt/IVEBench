@@ -37,7 +37,7 @@
     <a href='https://arxiv.org/abs/2510.11647v1'>
       <img src='https://img.shields.io/badge/arXiv-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='arXiv PDF'>
          </a>
-<a href="https://huggingface.co/datasets/Coraxor/IVEBench-DB"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Hugging%20Face&message=Dataset&color=yellow"></a>
+<a href="https://huggingface.co/datasets/Coraxor/IVEBench"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Hugging%20Face&message=Dataset&color=yellow"></a>
     <a href='https://ryanchenyn.github.io/projects/IVEBench/'>
       <img src='https://img.shields.io/badge/IVEBench-Website-green?style=flat&logo=googlechrome&logoColor=green' alt='webpage-Web'>
          </a>
