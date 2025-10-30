@@ -33,13 +33,13 @@ def main():
 
     metric_category_map = {
         "subject_consistency_score": "quality",
-        "temporal_flickering_score": "quality",
         "background_consistency_score": "quality",
+        "temporal_flickering_score": "quality",
         "motion_smoothness_score": "quality",
         "vtss_score": "quality",
         "overall_semantic_consistency_score": "compliance",
-        "instruction_satisfaction_score": "compliance",
         "phrase_semantic_consistency_score": "compliance",
+        "instruction_satisfaction_score": "compliance",
         "quantity_accuracy_score": "compliance",
         "semantic_fidelity_score": "fidelity",
         "motion_fidelity_score": "fidelity",
