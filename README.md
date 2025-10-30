@@ -52,6 +52,7 @@ This repository is a comprehensive collection of resources for **IVEBench**, If 
 
 **🔥 More up-to-date instruction-guided video editing methods will continue to be updated. **
 
+
 **📝 Evaluation To-Do:**
 
 - [x] [InsV2V](https://github.com/amazon-science/instruct-video-to-video), [StableV2V](https://github.com/AlonzoLeeeooo/StableV2V), [AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V), [VACE](https://github.com/ali-vilab/VACE)
