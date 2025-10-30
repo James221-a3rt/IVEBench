@@ -50,7 +50,7 @@ This repository is a comprehensive collection of resources for **IVEBench**, If 
 
 
 
-🔥**More up-to-date instruction-guided video editing methods will continue to be updated. **
+**🔥 More up-to-date instruction-guided video editing methods will continue to be updated. **
 
 **📝 Evaluation To-Do:**
 
